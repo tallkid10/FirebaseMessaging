@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Firebase Cloud Messaging Quickstart</string>
+    <string name="quickstart_message">Click the SUBSCRIBE TO NEWS button below to subscribe to the
+        news topic. Messages sent to the news topic will be received. The LOG TOKEN button logs the
+        InstanceID token to logcat.</string>
+    <string name="subscribe_to_news">Subscribe To News</string>
+  <string name="log_token">Log Token</string>
+  <string name="call_api">Call Api</string>
+  <string name="response">Response:</string>
+  <string name="google_app_id">fcmtest-15130</string>
+  <string name="gcm_defaultSenderId">758978293231</string>
+</resources>

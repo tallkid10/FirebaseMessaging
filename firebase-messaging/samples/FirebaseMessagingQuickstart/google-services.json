@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "271929453174",
+    "firebase_url": "https://fcmtest-ae40c.firebaseio.com",
+    "project_id": "fcmtest-ae40c",
+    "storage_bucket": "fcmtest-ae40c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:271929453174:android:a158beee7cd428da",
+        "android_client_info": {
+          "package_name": "FCM.FCM"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "271929453174-4i5768hcbrsolksb6mou9a93dt2tah7q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBegHmBixNTzTcZTnmmhGXYFKDg9yWF-OA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:271929453174:android:02c598bec794c989",
+        "android_client_info": {
+          "package_name": "com.xamarin.firebase.messagingquickstart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "271929453174-4i5768hcbrsolksb6mou9a93dt2tah7q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBegHmBixNTzTcZTnmmhGXYFKDg9yWF-OA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
