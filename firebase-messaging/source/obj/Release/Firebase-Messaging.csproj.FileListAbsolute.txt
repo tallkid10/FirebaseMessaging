@@ -1,0 +1,12 @@
+C:\Users\rpgray\Desktop\GPS 3\GooglePlayServicesComponents-9.4.0\firebase-messaging\source\bin\Release\Xamarin.Firebase.Messaging.dll
+C:\Users\rpgray\Desktop\GPS 3\GooglePlayServicesComponents-9.4.0\firebase-messaging\source\bin\Release\Xamarin.Firebase.Messaging.pdb
+C:\Users\rpgray\Desktop\GPS 3\GooglePlayServicesComponents-9.4.0\firebase-messaging\source\bin\Release\Xamarin.Firebase.Common.dll
+C:\Users\rpgray\Desktop\GPS 3\GooglePlayServicesComponents-9.4.0\firebase-messaging\source\bin\Release\Xamarin.Firebase.Iid.dll
+C:\Users\rpgray\Desktop\GPS 3\GooglePlayServicesComponents-9.4.0\firebase-messaging\source\bin\Release\Xamarin.GooglePlayServices.Basement.dll
+C:\Users\rpgray\Desktop\GPS 3\GooglePlayServicesComponents-9.4.0\firebase-messaging\source\bin\Release\Xamarin.GooglePlayServices.Tasks.dll
+C:\Users\rpgray\Desktop\GPS 3\GooglePlayServicesComponents-9.4.0\firebase-messaging\source\bin\Release\Xamarin.GooglePlayServices.Basement.pdb
+C:\Users\rpgray\Desktop\GPS 3\GooglePlayServicesComponents-9.4.0\firebase-messaging\source\bin\Release\Xamarin.Firebase.Common.pdb
+C:\Users\rpgray\Desktop\GPS 3\GooglePlayServicesComponents-9.4.0\firebase-messaging\source\bin\Release\Xamarin.Firebase.Iid.pdb
+C:\Users\rpgray\Desktop\GPS 3\GooglePlayServicesComponents-9.4.0\firebase-messaging\source\bin\Release\Xamarin.GooglePlayServices.Tasks.pdb
+C:\Users\rpgray\Desktop\GPS 3\GooglePlayServicesComponents-9.4.0\firebase-messaging\source\obj\Release\Xamarin.Firebase.Messaging.dll
+C:\Users\rpgray\Desktop\GPS 3\GooglePlayServicesComponents-9.4.0\firebase-messaging\source\obj\Release\Xamarin.Firebase.Messaging.pdb

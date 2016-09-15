@@ -1,0 +1,12 @@
+com/google/firebase/messaging/FirebaseMessaging = Firebase.Messaging.FirebaseMessaging
+  INSTANCE_ID_SCOPE = InstanceIdScope
+  getInstance()Lcom/google/firebase/messaging/FirebaseMessaging; = Instance
+  subscribeToTopic(Ljava/lang/String;)V = SubscribeToTopic(string)
+  unsubscribeFromTopic(Ljava/lang/String;)V = UnsubscribeFromTopic(string)
+com/google/firebase/messaging/SendException = Firebase.Messaging.SendException
+  ERROR_INVALID_PARAMETERS = ErrorInvalidParameters
+  ERROR_SIZE = ErrorSize
+  ERROR_TOO_MANY_MESSAGES = ErrorTooManyMessages
+  ERROR_TTL_EXCEEDED = ErrorTtlExceeded
+  ERROR_UNKNOWN = ErrorUnknown
+  getErrorCode()I = ErrorCode

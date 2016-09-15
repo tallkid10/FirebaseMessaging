@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<api>
+<package name="com.google.firebase.messaging">
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="FirebaseMessaging" static="false" visibility="public">
+<method abstract="false" deprecated="not deprecated" final="false" name="getInstance" native="false" return="com.google.firebase.messaging.FirebaseMessaging" static="true" synchronized="true" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="send" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="message" type="com.google.firebase.messaging.RemoteMessage">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="subscribeToTopic" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="topic" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="unsubscribeFromTopic" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="topic" type="java.lang.String">
+</parameter>
+</method>
+<field deprecated="not deprecated" final="true" name="INSTANCE_ID_SCOPE" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;FCM&quot;" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="com.google.firebase.iid.zzb" extends-generic-aware="com.google.firebase.iid.zzb" final="false" name="FirebaseMessagingService" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="FirebaseMessagingService" static="false" type="com.google.firebase.messaging.FirebaseMessagingService" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="onDeletedMessages" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onMessageReceived" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="message" type="com.google.firebase.messaging.RemoteMessage">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onMessageSent" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="msgId" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onSendError" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="msgId" type="java.lang.String">
+</parameter>
+<parameter name="exception" type="java.lang.Exception">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="zzaa" native="false" return="android.content.Intent" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="android.content.Intent">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="zzm" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Intent">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable" extends-generic-aware="com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable" final="true" name="RemoteMessage" static="false" visibility="public">
+<method abstract="false" deprecated="not deprecated" final="false" name="getCollapseKey" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getData" native="false" return="java.util.Map&lt;java.lang.String, java.lang.String&gt;" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getFrom" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getMessageId" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getMessageType" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getNotification" native="false" return="com.google.firebase.messaging.RemoteMessage.Notification" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getSentTime" native="false" return="long" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getTo" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getTtl" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="writeToParcel" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="out" type="android.os.Parcel">
+</parameter>
+<parameter name="flags" type="int">
+</parameter>
+</method>
+<field deprecated="not deprecated" final="true" name="CREATOR" static="true" transient="false" type="android.os.Parcelable.Creator" type-generic-aware="android.os.Parcelable.Creator&lt;com.google.firebase.messaging.RemoteMessage&gt;" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="RemoteMessage.1" static="true" visibility=""/>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="RemoteMessage.Builder" static="true" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="RemoteMessage.Builder" static="false" type="com.google.firebase.messaging.RemoteMessage.Builder" visibility="public">
+<parameter name="to" type="java.lang.String">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="addData" native="false" return="com.google.firebase.messaging.RemoteMessage.Builder" static="false" synchronized="false" visibility="public">
+<parameter name="key" type="java.lang.String">
+</parameter>
+<parameter name="value" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="build" native="false" return="com.google.firebase.messaging.RemoteMessage" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="clearData" native="false" return="com.google.firebase.messaging.RemoteMessage.Builder" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setCollapseKey" native="false" return="com.google.firebase.messaging.RemoteMessage.Builder" static="false" synchronized="false" visibility="public">
+<parameter name="collapseKey" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setData" native="false" return="com.google.firebase.messaging.RemoteMessage.Builder" static="false" synchronized="false" visibility="public">
+<parameter name="data" type="java.util.Map&lt;java.lang.String, java.lang.String&gt;">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setMessageId" native="false" return="com.google.firebase.messaging.RemoteMessage.Builder" static="false" synchronized="false" visibility="public">
+<parameter name="messageId" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setMessageType" native="false" return="com.google.firebase.messaging.RemoteMessage.Builder" static="false" synchronized="false" visibility="public">
+<parameter name="messageType" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setTtl" native="false" return="com.google.firebase.messaging.RemoteMessage.Builder" static="false" synchronized="false" visibility="public">
+<parameter name="ttl" type="int">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="RemoteMessage.Notification" static="true" visibility="public">
+<method abstract="false" deprecated="not deprecated" final="false" name="getBody" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getBodyLocalizationArgs" native="false" return="java.lang.String[]" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getBodyLocalizationKey" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getClickAction" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getColor" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getIcon" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getSound" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getTag" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getTitle" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getTitleLocalizationArgs" native="false" return="java.lang.String[]" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getTitleLocalizationKey" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Exception" extends-generic-aware="java.lang.Exception" final="true" name="SendException" static="false" visibility="public">
+<method abstract="false" deprecated="not deprecated" final="false" name="getErrorCode" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<field deprecated="not deprecated" final="true" name="ERROR_INVALID_PARAMETERS" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="ERROR_SIZE" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="ERROR_TOO_MANY_MESSAGES" static="true" transient="false" type="int" type-generic-aware="int" value="4" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="ERROR_TTL_EXCEEDED" static="true" transient="false" type="int" type-generic-aware="int" value="3" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="ERROR_UNKNOWN" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="zzc" static="false" visibility="public">
+<implements name="android.os.Parcelable.Creator" name-generic-aware="android.os.Parcelable.Creator&lt;com.google.firebase.messaging.RemoteMessage&gt;">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="zzc" static="false" type="com.google.firebase.messaging.zzc" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="zzafd" native="false" return="com.google.firebase.messaging.RemoteMessage[]" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="zzwh" native="false" return="com.google.firebase.messaging.RemoteMessage" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.os.Parcel">
+</parameter>
+</method>
+</class>
+</package>
+</api>

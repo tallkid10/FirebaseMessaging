@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Paths>
+  <AdditionalAndroidResourcePaths>
+    <AdditionalAndroidResourcePath>C:\Users\rpgray\AppData\Local\Xamarin\Xamarin.Firebase.Common\9.4.0\embedded</AdditionalAndroidResourcePath>
+    <AdditionalAndroidResourcePath>C:\Users\rpgray\AppData\Local\Xamarin\Xamarin.Firebase.Iid\9.4.0\embedded</AdditionalAndroidResourcePath>
+    <AdditionalAndroidResourcePath>C:\Users\rpgray\AppData\Local\Xamarin\Xamarin.GooglePlayServices.Basement\9.4.0\embedded</AdditionalAndroidResourcePath>
+    <AdditionalAndroidResourcePath>C:\Users\rpgray\AppData\Local\Xamarin\Xamarin.GooglePlayServices.Tasks\9.4.0\embedded</AdditionalAndroidResourcePath>
+    <AdditionalAndroidResourcePath>C:\Users\rpgray\AppData\Local\Xamarin\Xamarin.Android.Support.v4\23.4.0.0\embedded</AdditionalAndroidResourcePath>
+  </AdditionalAndroidResourcePaths>
+  <AdditionalJavaLibraryReferences>
+    <AdditionalJavaLibraryReference>C:\Users\rpgray\AppData\Local\Xamarin\Xamarin.Firebase.Common\9.4.0\embedded\classes.jar</AdditionalJavaLibraryReference>
+    <AdditionalJavaLibraryReference>C:\Users\rpgray\AppData\Local\Xamarin\Xamarin.Firebase.Iid\9.4.0\embedded\classes.jar</AdditionalJavaLibraryReference>
+    <AdditionalJavaLibraryReference>C:\Users\rpgray\AppData\Local\Xamarin\Xamarin.GooglePlayServices.Basement\9.4.0\embedded\classes.jar</AdditionalJavaLibraryReference>
+    <AdditionalJavaLibraryReference>C:\Users\rpgray\AppData\Local\Xamarin\Xamarin.GooglePlayServices.Tasks\9.4.0\embedded\classes.jar</AdditionalJavaLibraryReference>
+    <AdditionalJavaLibraryReference>C:\Users\rpgray\AppData\Local\Xamarin\Xamarin.Android.Support.v4\23.4.0.0\embedded\classes.jar</AdditionalJavaLibraryReference>
+    <AdditionalJavaLibraryReference>C:\Users\rpgray\AppData\Local\Xamarin\Xamarin.Android.Support.v4\23.4.0.0\embedded\libs\internal_impl-23.4.0.jar</AdditionalJavaLibraryReference>
+  </AdditionalJavaLibraryReferences>
+  <AdditionalNativeLibraryReferences />
+</Paths>
